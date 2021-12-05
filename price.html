@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="lg.png">
+    <title>CodeMasters</title>
+  </head>
+  <body
+    class="p-3 mb-2 bg-dark text-white background-image: var(--bs-gradient);."
+    ;
+  >
+    <!-- navbar -->
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <nav class="navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="lg.ico"
+                alt=""
+                width="40"
+                height="40"
+                class="d-inline-block align-text-center"
+              />
+              <b>CodeMasters</b>
+            </a>
+          </div>
+        </nav>
+
+        <b><a class="navbar-brand" href="#">Pricing</a></b>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Downloads</a>
+              <a class="nav-link" href="#">Docs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">C/C++</a></li>
+                <li><a class="dropdown-item" href="#">Java</a></li>
+                <li><a class="dropdown-item" href="#">Python</a></li>
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">RUBY</a></li>
+                <li><a class="dropdown-item" href="#">PHP</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li><a class="dropdown-item" href="#">Jquery</a></li>
+                <li><a class="dropdown-item" href="#">SQL</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Contact us</a>
+                  <a class="dropdown-item" href="#">Write About Us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Admin-login</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--pricing-->
+ 
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center bg-dark" style="margin-top: 50px;">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 bg-success">
+                <h4 class="my-0 fw-normal">7-Days Free Trial</h4>
+              </div>
+              <div class="card-body bg-dark">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>3 courses availible</li>
+                    <li>Limited number of Faculties</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 bg-primary">
+                <h4 class="my-0 fw-normal">Pro Plan</h4>
+              </div>
+              <div class="card-body bg-dark">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>25 courses availible</li>
+                    <li>All Faculties availible</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-info">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-warning border-light">
+                <h4 class="my-0 fw-normal">Pro+ Plan</h4>
+              </div>
+              <div class="card-body bg-dark">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>All courses and faculties availible</li>
+                    <li>One on one interactions</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    
+        <div class="table-responsive bg-dark">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%; color: white"></th>
+                <th style="width: 22%; color: white">Free</th>
+                <th style="width: 22%; color: white">Pro</th>
+                <th style="width: 22%; color: white">Pro+</th>
+              </tr>
+            </thead>
+            <tbody style="color: white;">
+              <tr>
+                <th scope="row" class="text-start" style="color: white;">Notes</th>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+              </tr>
+            </tbody>
+            
+            <tbody style="color: white;">
+                <th scope="row" class="text-start" style="color: white;">Access to digital platform</th>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start" style="color: white;">Extra notes</th>
+                  <td></td>
+                  <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                  <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                </tr>
+              <tr>
+                <th scope="row" class="text-start" style="color: white;">Mentor Support</th>
+                <td></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+              </tr>
+              
+                <th scope="row" class="text-start" style="color: white;">Online 15 GB notes storage</th>
+                <td></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start" style="color: white;">One on One interactions</th>
+                <td></td>
+                <td></td>
+                <td><img src="tick.svg" class="bi" width="24" height="24"><use xlink:href="#check"></use></img></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+      <div style="  background-color: grey;
+      height: 50px;
+      font-family: monospace, sans-serif;
+      text-align: center;
+      padding-top:15px;
+      justify-content: center;
+      margin-top: 13px;">
+        Copyright © 2020 CodeMasters| All Rights Reserved 
+      </div>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
